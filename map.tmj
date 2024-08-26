@@ -5658,7 +5658,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"script.js"
+         "value":"main.ts"
         }, 
         {
          "name":"tutorial",
