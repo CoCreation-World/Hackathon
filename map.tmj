@@ -6072,8 +6072,17 @@
          "tilewidth":32
         }, 
         {
+         "columns":30,
          "firstgid":17132,
-         "source":"tilesets\/Hackaton-Remaster-Spritesheet.tsx"
+         "image":"tilesets\/Hackaton-Remaster-Spritesheet.png",
+         "imageheight":960,
+         "imagewidth":960,
+         "margin":0,
+         "name":"Hackaton-Remaster-Spritesheet",
+         "spacing":0,
+         "tilecount":900,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
