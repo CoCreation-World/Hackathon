@@ -4946,7 +4946,7 @@
          "height":80,
          "id":88,
          "name":"lightray",
-         "opacity":0.27,
+         "opacity":0.33,
          "parallaxx":0.95,
          "parallaxy":0.95,
          "type":"tilelayer",
