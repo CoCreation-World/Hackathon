@@ -34,7 +34,6 @@ function closePopup(){
 }
 
 let currentZone: string;
-let currentPopup: any;
 
 const config = [
     {
