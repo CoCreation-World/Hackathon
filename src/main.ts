@@ -4,9 +4,6 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 console.log('Script started successfully');
 
-
-let closePopup = () => {
-// Waiting for the API to be ready
 WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
@@ -17,18 +14,11 @@ WA.onInit().then(() => {
         WA.ui.openPopup("clockPopup", "It's " + time, []);
     })
 
-    WA.room.area.onLeave('clock').subscribe(closePopup)
 
-    // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
-    bootstrapExtra().then(() => {
-        console.log('Scripting API Extra ready');
-    }).catch(e => console.error(e));
-
-}).catch(e => console.error(e));}
 
 
 let helpPopup: any;
-WA.room.area.onEnter('needHelp').subscribe, () => {
+WA.onInit().then(() => {WA.room.area.onEnter('needHelp').subscribe, () => {
 helpPopup = WA.ui.openPopup('hopupHelp','Do you wanna know more about us? Explore our Hub!',[{
     label: 'Go to hub',
     className: 'primary',
@@ -37,6 +27,26 @@ helpPopup = WA.ui.openPopup('hopupHelp','Do you wanna know more about us? Explor
 
 WA.room.area.onLeave('needHelp').subscribe(() => {
     helpPopup.close();
-})
+})})
 
+// Waiting for the API to be ready
+WA.onInit().then(() => {
+    console.log('Scripting API ready');
+    console.log('Player tags: ',WA.player.tags)
+
+
+    // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
+    bootstrapExtra().then(() => {
+        console.log('Scripting API Extra ready');
+    }).catch(e => console.error(e));
+
+}).catch(e => console.error(e));
+
+
+
+
+})
 export {};
+
+
+
