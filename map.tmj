@@ -2475,6 +2475,7 @@
          "name":"lightray",
          "opacity":0.27,
          "parallaxx":0.95,
+         "parallaxy":0.95,
          "type":"tilelayer",
          "visible":true,
          "width":55,
