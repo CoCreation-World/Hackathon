@@ -3599,12 +3599,6 @@
                  "id":94,
                  "name":"green",
                  "opacity":1,
-                 "properties":[
-                        {
-                         "name":"visible",
-                         "type":"string",
-                         "value":"{{{ lockAll }}}"
-                        }],
                  "type":"tilelayer",
                  "visible":true,
                  "width":55,
@@ -3894,66 +3888,6 @@
          "opacity":1,
          "type":"group",
          "visible":true,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "draworder":"topdown",
-         "id":117,
-         "name":"whiteboards",
-         "objects":[
-                {
-                 "height":0,
-                 "id":36,
-                 "name":"boardPink",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"default",
-                         "type":"string",
-                         "value":"https:\/\/miro.com\/app\/live-embed\/uXjVKlWX5es=?moveToWidget=3458764598335824617"
-                        }, 
-                        {
-                         "name":"description",
-                         "type":"string",
-                         "value":"by default a individual frame within a public Miro whiteboard"
-                        }, 
-                        {
-                         "name":"label",
-                         "type":"string",
-                         "value":"Pink Room Whiteboard-URL"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"writableBy",
-                         "type":"string",
-                         "value":"admin"
-                        }],
-                 "rotation":0,
-                 "type":"variable\"",
-                 "visible":false,
-                 "width":0,
-                 "x":136.450811808702,
-                 "y":1631.79291462263
-                }],
-         "opacity":1,
-         "properties":[
-                {
-                 "name":"description",
-                 "type":"string",
-                 "value":"Currently not available"
-                }, 
-                {
-                 "name":"label",
-                 "type":"string",
-                 "value":"Whiteboard-URLs"
-                }],
-         "type":"objectgroup",
-         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -4303,21 +4237,21 @@
                  "y":1775.04318480154
                 }, 
                 {
-                 "height":245.413505698248,
-                 "id":39,
+                 "height":245.414,
+                 "id":50,
                  "name":"pinkroom",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"{{ boardPink }}"
+                         "value":"{{{ boardPink }}}"
                         }],
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":132.25429494812,
-                 "x":127.772162051117,
-                 "y":1619.19201436237
+                 "width":132.254,
+                 "x":127.483842207164,
+                 "y":1609.14198354308
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -4328,6 +4262,66 @@
         {
          "id":116,
          "layers":[
+                {
+                 "draworder":"topdown",
+                 "id":117,
+                 "name":"whiteboards",
+                 "objects":[
+                        {
+                         "height":0,
+                         "id":36,
+                         "name":"boardPink",
+                         "point":true,
+                         "properties":[
+                                {
+                                 "name":"default",
+                                 "type":"string",
+                                 "value":"https:\/\/miro.com\/app\/live-embed\/uXjVKlWX5es=?moveToWidget=3458764598335824617"
+                                }, 
+                                {
+                                 "name":"description",
+                                 "type":"string",
+                                 "value":"by default a individual frame within a public Miro whiteboard"
+                                }, 
+                                {
+                                 "name":"label",
+                                 "type":"string",
+                                 "value":"Pink Room Whiteboard-URL"
+                                }, 
+                                {
+                                 "name":"persist",
+                                 "type":"bool",
+                                 "value":true
+                                }, 
+                                {
+                                 "name":"writableBy",
+                                 "type":"string",
+                                 "value":"admin"
+                                }],
+                         "rotation":0,
+                         "type":"variable",
+                         "visible":false,
+                         "width":0,
+                         "x":136.450811808702,
+                         "y":1631.79291462263
+                        }],
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"description",
+                         "type":"string",
+                         "value":"Currently not available"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Whiteboard-URLs"
+                        }],
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
                 {
                  "class":"door",
                  "draworder":"topdown",
@@ -5365,7 +5359,7 @@
          "y":0
         }],
  "nextlayerid":127,
- "nextobjectid":49,
+ "nextobjectid":52,
  "orientation":"orthogonal",
  "properties":[
         {
