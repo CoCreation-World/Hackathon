@@ -4252,6 +4252,204 @@
                  "width":132.254,
                  "x":127.483842207164,
                  "y":1609.14198354308
+                }, 
+                {
+                 "height":364.413683733575,
+                 "id":52,
+                 "name":"Room 2 Blue",
+                 "properties":[
+                        {
+                         "name":"ai-zone",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"description",
+                         "type":"string",
+                         "value":"Blue Breakout Room"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":364.951517897599,
+                 "x":82.3598581702643,
+                 "y":1096.43130676832
+                }, 
+                {
+                 "height":523,
+                 "id":54,
+                 "name":"Auditorium",
+                 "properties":[
+                        {
+                         "name":"ai-zone",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"description",
+                         "type":"string",
+                         "value":"Central Stage for presentations"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":664,
+                 "x":553.817852288174,
+                 "y":1236.00792931581
+                }, 
+                {
+                 "height":364.414,
+                 "id":55,
+                 "name":"Room 1 Pink",
+                 "properties":[
+                        {
+                         "name":"ai-zone",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"description",
+                         "type":"string",
+                         "value":"Pink Breakout Room"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":364.952,
+                 "x":180.514423231387,
+                 "y":1479.8257463701
+                }, 
+                {
+                 "height":514.414,
+                 "id":56,
+                 "name":"Socializing",
+                 "properties":[
+                        {
+                         "name":"ai-zone",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"description",
+                         "type":"string",
+                         "value":"Informal Sozializing, Bar, Couch, Games, Music"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":646.952,
+                 "x":560.01130964467,
+                 "y":702.094667875272
+                }, 
+                {
+                 "height":364.414,
+                 "id":57,
+                 "name":"Room 3 Red",
+                 "properties":[
+                        {
+                         "name":"ai-zone",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"description",
+                         "type":"string",
+                         "value":"Red Breakout Room"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":364.952,
+                 "x":104.688612037708,
+                 "y":605.320193618564
+                }, 
+                {
+                 "height":364.414,
+                 "id":58,
+                 "name":"Room 4 Green",
+                 "properties":[
+                        {
+                         "name":"ai-zone",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"description",
+                         "type":"string",
+                         "value":"Green Breakout Room"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":364.952,
+                 "x":1309.524,
+                 "y":665.793
+                }, 
+                {
+                 "height":364.414,
+                 "id":59,
+                 "name":"Room 5 Yellow",
+                 "properties":[
+                        {
+                         "name":"ai-zone",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"description",
+                         "type":"string",
+                         "value":"Green Breakout Room"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":364.952,
+                 "x":1329.524,
+                 "y":1101.793
+                }, 
+                {
+                 "height":364.414,
+                 "id":60,
+                 "name":"Room 6 Orange",
+                 "properties":[
+                        {
+                         "name":"ai-zone",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"description",
+                         "type":"string",
+                         "value":"Orange Breakout Room"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":364.952,
+                 "x":1327.524,
+                 "y":1549.793
+                }, 
+                {
+                 "height":364.414,
+                 "id":61,
+                 "name":"Spawn",
+                 "properties":[
+                        {
+                         "name":"ai-zone",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"description",
+                         "type":"string",
+                         "value":"spawn area where users arrive"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":364.952,
+                 "x":684.130170598911,
+                 "y":1918.51895281307
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -5359,7 +5557,7 @@
          "y":0
         }],
  "nextlayerid":127,
- "nextobjectid":52,
+ "nextobjectid":62,
  "orientation":"orthogonal",
  "properties":[
         {
