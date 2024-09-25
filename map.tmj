@@ -4316,8 +4316,8 @@
                  "type":"area",
                  "visible":true,
                  "width":364.952,
-                 "x":180.514423231387,
-                 "y":1479.8257463701
+                 "x":76.514423231387,
+                 "y":1527.8257463701
                 }, 
                 {
                  "height":514.414,
@@ -5781,7 +5781,7 @@
         {
          "columns":6,
          "firstgid":6869,
-         "image":"src\/assets\/WA_Special_Zones.png",
+         "image":"tilesets\/WA_Special_Zones.png",
          "imageheight":64,
          "imagewidth":192,
          "margin":0,
